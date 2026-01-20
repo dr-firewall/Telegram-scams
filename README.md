@@ -1,4 +1,68 @@
 # Telegram-scams
 Greetings! This project will look at popular types of fraud in telegram, and the code for these tools will also be posted here. P.S.: I am not responsible for the actions that you may take with these utilities, I post these files as experiments and observations.
 Well, my nickname is Dr.Firewall and this is the first entry. Recently, I personally had to deal with telegram fraud, after which I decided to explore this topic and share it with you. Perhaps I'll start with the "demolition" of telegram accounts. Recently, scammers have begun to intimidate a lot of neutral people.
-A popular method of threatening people, which forces them to pay for their own data, which in my opinion is absurd, is stealing someone's information. They operate in the following way: 1. Whether you're a child or an adult, they start contacting you through games and other resources. 2. They might invite you to Telegram with a tempting offer, for example, offering you money for nothing or in-game items. 3. Most likely, they'll ask you to write to them because this makes it easier for them to get your account registration data and account ID. 4. Then they use utilities and find out everything about you! And that's just the beginning. 5. While everything goes according to their script, they're polite, but if you veer away from the dialogue, they begin their intimidation. 6. Specifically, they send you your data, such as your email, which they definitely can't recognize, your last visited websites, etc. 7. They enter the threatening phase: you'll end up in the hospital, you'll be in trouble, or they'll use your cards for illegal activity, after which they say you'll go to jail. 8. The victim no longer cares about life's problems and enters a state of apathy, terrified. In this situation, they might commit suicide or do other terrible things. 9. They ask for a ransom for your data or for the existence of your Telegram account. That's it, I think I've explained it clearly. Tomorrow I'll post a sample code that I received after the scammer's threats, and I'll also explain how this code works. In the future, we'll look at other utilities that help scammers find your data and how to protect yourself.
+# Telegram Fraud Investigation Project
+
+**Author:** Dr.Firewall  
+**Status:** First entry
+
+## Introduction
+
+This project examines popular types of fraud occurring on Telegram. The code for the tools used in these scams will be shared here for educational purposes.
+
+> **P.S.** I am not responsible for any actions you may take with these utilities. These files are posted solely for experimental and observational purposes.
+
+## Personal Experience
+
+Recently, I encountered Telegram fraud firsthand. This experience motivated me to explore and share insights on this topic. Let's begin with the issue of **Telegram account "demolition"** — a growing concern as scammers increasingly target neutral individuals.
+
+## Common Scam Methodology
+
+Scammers typically follow this pattern:
+
+1. **Initial Contact**  
+   They reach out via games or other online resources, targeting both children and adults.
+
+2. **Luring to Telegram**  
+   They invite the victim to Telegram with tempting offers (e.g., free money or in-game items).
+
+3. **Gathering Information**  
+   They request direct communication on Telegram to extract account registration data and the user's **account ID**.
+
+4. **Data Harvesting**  
+   Using specialized utilities, they collect personal information about the victim.
+
+5. **Controlled Dialogue**  
+   Initially polite, they maintain scripted conversations. However, if the victim deviates, the tone shifts.
+
+6. **Demonstrating "Power"**  
+   They reveal personal data (e.g., email addresses, recently visited websites) to intimidate the victim — even if the data is publicly available or falsified.
+
+7. **Threatening Phase**  
+   Scammers issue dire warnings:
+   - Physical harm ("You'll end up in the hospital").
+   - Legal trouble ("You'll go to jail").
+   - Financial exploitation ("We'll use your cards for illegal activity").
+
+8. **Psychological Impact**  
+   The victim may experience:
+   - Severe anxiety.
+   - Apathy.
+   - In extreme cases, suicidal thoughts.
+
+9. **Ransom Demand**  
+   Finally, they demand payment in exchange for:
+   - "Protecting" the victim's data.
+   - Preserving the victim's Telegram account.
+
+## Next Steps
+
+Tomorrow, I will:
+- Share a **sample code** received from a scammer.
+- Explain how the code operates.
+
+In future entries, we will:
+- Analyze other tools scammers use to harvest data.
+- Discuss practical methods to protect yourself.
+
+Stay tuned for more insights!
