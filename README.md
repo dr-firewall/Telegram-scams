@@ -68,90 +68,128 @@ In future entries, we will:
 Stay tuned for more insights!
 
 
-How Telegram "Account Removal" Teams Work: Myths, Reality, and Technical Aspects
-Introduction
-In the Russian-speaking segment of Telegram, the term "account removal team" (or "account takedown service") is frequently used. This refers to an unofficial service that allegedly can delete (or "take down") any unwanted Telegram account or channel. In this article, we will examine what lies behind this concept, how Telegram moderation actually works, and the technical and social methods used to target accounts.
+# How Telegram «Account Removal» Teams Work: Myths, Reality, and Technical Aspects
 
-1. Official Paths for Content Removal
-Before discussing unofficial methods, it's important to understand the legal mechanisms.
 
-1.1. The "Report" Function
-Every user can report a message, channel, or account using the built-in function.
+In the Russian‑speaking segment of Telegram, the term **«account removal team»** (or **«account takedown service»**) is frequently used. This refers to an unofficial service that allegedly can delete (or «take down») any unwanted Telegram account or channel. In this article, we will examine what lies behind this concept, how Telegram moderation actually works, and the technical and social methods used to target accounts.
 
-Reasons: Spam, violence, child abuse, copyright infringement, etc.
+## Official Paths for Content Removal
 
-Process: The report goes to Telegram's Trust and Safety Team. Decisions are made by humans based on the Platform's Terms of Service. A mass influx of reports from different users may increase the priority of the case, but there is no automatic deletion based solely on the number of reports.
+Before discussing unofficial methods, it’s important to understand the legal mechanisms.
 
-1.2. Copyright Holder Requests (DMCA)
+### The «Report» Function
+
+Every user can report a message, channel, or account using the built‑in function.
+
+
+**Reasons:**  
+- Spam;  
+- Violence;  
+- Child abuse;  
+- Copyright infringement;  
+- etc.
+
+**Process:**  
+The report goes to Telegram’s *Trust and Safety Team*. Decisions are made by humans based on the Platform’s *Terms of Service*. A mass influx of reports from different users may increase the priority of the case, but there is no automatic deletion based solely on the number of reports.
+
+### Copyright Holder Requests (DMCA)
+
 For materials infringing copyrights, there is an official takedown request procedure. This is a legal, not a technical, process.
 
-1.3. Judicial Authorities' Requests
+### Judicial Authorities’ Requests
+
 Telegram, like many platforms, may block accounts or content based on court decisions in jurisdictions where it operates officially (e.g., as a legal entity in some countries). This primarily concerns extremist and illegal content.
 
-Conclusion: Officially, it is impossible to simply "take down" an account on request and for money. Valid grounds that violate the platform's rules are required.
+**Conclusion:** Officially, it is impossible to simply «take down» an account on request and for money. Valid grounds that violate the platform’s rules are required.
 
-2. What Do "Removal Teams" Actually Offer?
+## What Do «Removal Teams» Actually Offer?
+
 These services exploit vulnerabilities in moderation systems and social engineering.
 
-2.1. Mass Coordinated Reporting (Raid Reporting)
-Mechanism: A group of people is organized or bots are used to mass-report a target account for a chosen violation (most commonly "pornography," "violence," "extremism").
+### Mass Coordinated Reporting (Raid Reporting)
 
-Goal: To "flood" the moderation system, creating the illusion of a serious and widespread violation. If an abnormally large number of reports arrives in a short time, the system may temporarily restrict the account (e.g., impose a "shadow ban" or flag it for review) to minimize potential harm.
 
-Effectiveness: Low/Medium. Telegram's modern anti-spam systems can detect report manipulation from the same devices or IP addresses. It has little effect on long-standing and reputable accounts. It's more a tool for harassment than guaranteed removal.
+**Mechanism:** A group of people is organized or bots are used to mass‑report a target account for a chosen violation (most commonly «pornography», «violence», «extremism»).
 
-2.2. Hacking and Subsequent Rule Violation
-Mechanism: Methods like phishing, password brute-forcing, or purchasing leaked data (cookies, sessions) are used to gain access to the victim's account.
+**Goal:** To «flood» the moderation system, creating the illusion of a serious and widespread violation. If an abnormally large number of reports arrives in a short time, the system may temporarily restrict the account (e.g., impose a «shadow ban» or flag it for review) to minimize potential harm.
 
-Actions Inside the Account: After hacking, the attacker can:
+**Effectiveness:** Low/Medium. Telegram’s modern anti‑spam systems can detect report manipulation from the same devices or IP addresses. It has little effect on long‑standing and reputable accounts. It’s more a tool for harassment than guaranteed removal.
 
-Mass-distribute spam or rule-breaking content (brutality, pornography), which will almost certainly lead to an account ban by automated systems.
+### Hacking and Subsequent Rule Violation
 
-Simply delete the account/channel from within.
 
-Effectiveness: High, if the hack is successful. However, this is a criminal offense (e.g., Article 272 of the Russian Criminal Code and equivalents). This method is expensive and risky for the "performer."
+**Mechanism:** Methods like phishing, password brute‑forcing, or purchasing leaked data (cookies, sessions) are used to gain access to the victim’s account.
 
-2.3. Social Engineering Against Telegram Support
-Mechanism: The perpetrator, posing as a victim (e.g., the owner of a hacked account or a copyright holder), attempts to convince Telegram support of the urgent need to delete an account. Forged documentation may be used.
+**Actions Inside the Account:** After hacking, the attacker can:
+- Mass‑distribute spam or rule‑breaking content (brutality, pornography), which will almost certainly lead to an account ban by automated systems;
+- Simply delete the account/channel from within.
 
-Effectiveness: Very low. Telegram's support is known for its minimalist approach and slow response. Carrying out such an operation is difficult without high-level skills and information about the victim.
+**Effectiveness:** High, if the hack is successful. However, this is a criminal offense (e.g., Article 272 of the Russian Criminal Code and equivalents). This method is expensive and risky for the «performer».
 
-3. Technical Aspects of Telegram's Protection
-Why is "removal" so difficult? Because of Telegram's architecture.
+### Social Engineering Against Telegram Support
 
-Decentralized Moderation: There is no single "kill switch." Decisions are made by a distributed team, complicating corrupt schemes.
+**Mechanism:** The perpetrator, posing as a victim (e.g., the owner of a hacked account or a copyright holder), attempts to convince Telegram support of the urgent need to delete an account. Forged documentation may be used.
 
-Automated Abuse Detection Systems (Anti-Spam, Anti-Flood): These systems analyze behavioral patterns (reports, messages, chat joins) and easily filter out primitive attacks.
+**Effectiveness:** Very low. Telegram’s support is known for its minimalist approach and slow response. Carrying out such an operation is difficult without high‑level skills and information about the victim.
 
-Priority on Data Preservation: Telegram's philosophy is free speech and privacy. Deleting an account without extreme grounds contradicts this philosophy.
+## Technical Aspects of Telegram’s Protection
 
-Two-Factor Authentication (2FA) and Active Sessions: Significantly complicate hacking, even if the password or phone number is known.
 
-4. Myths and Risks
-Myth 1: "There is a bot/person at Telegram who, for money, will delete any account." This is almost always a scam. The buyer will either be given the impression that work is being done (by organizing fake reports) or the "performer" will simply take the prepayment and disappear.
+Why is «removal» so difficult? Because of Telegram’s architecture.
 
-Myth 2: "It's enough to send N reports, and the account will be banned." This is false. The system considers not the quantity but the quality and source of reports.
+- **Decentralized Moderation:** There is no single «kill switch». Decisions are made by a distributed team, complicating corrupt schemes.
+- **Automated Abuse Detection Systems (Anti‑Spam, Anti‑Flood):** These systems analyze behavioral patterns (reports, messages, chat joins) and easily filter out primitive attacks.
+- **Priority on Data Preservation:** Telegram’s philosophy is free speech and privacy. Deleting an account without extreme grounds contradicts this philosophy.
+- **Two‑Factor Authentication (2FA) and Active Sessions:** Significantly complicate hacking, even if the password or phone number is known.
 
-Risks for the Customer: Loss of money, getting one's own account blocked for report abuse, and, in the case of ordering a hack, criminal liability as an accomplice.
+## Myths and Risks
 
-Risks for the Victim: The most real threat is hacking. Therefore, it is critical to enable 2FA, use a strong password, and be cautious of phishing.
+**Myth 1:** «There is a bot/person at Telegram who, for money, will delete any account.»  
+This is almost always a scam. The buyer will either be given the impression that work is being done (by organizing fake reports) or the «performer» will simply take the prepayment and disappear.
 
-5. Recommendations for Protecting Your Account
-Enable Two-Factor Authentication (2FA) in Telegram settings. This is the main shield.
+**Myth 2:** «It’s enough to send N reports, and the account will be banned.»  
+This is false. The system considers not the quantity but the quality and source of reports.
 
-Set a password for the SMS verification code.
+**Risks for the Customer:**  
+- Loss of money;  
+- Getting one’s own account blocked for report abuse;  
+- In the case of ordering a hack — criminal liability as an accomplice.
 
-Regularly check Settings → Devices and terminate all unfamiliar active sessions.
 
-Do not click on suspicious links and do not enter your Telegram code on third-party sites.
+**Risks for the Victim:**  
+The most real threat is hacking. Therefore, it is critical to enable 2FA, use a strong password, and be cautious of phishing.
 
-Be skeptical. If you are threatened with "removal," it is most likely a bluff. But check points 1-4.
 
-Conclusion
-"Account removal teams" are, for the most part, either scammers selling empty promises or hackers offering to commit a crime. Telegram's actual moderation is designed to withstand such primitive attacks.
+## Recommendations for Protecting Your Account
 
-Reliable "removal" is only possible through official channels and in the presence of real, gross violations of the platform's rules. Everything else is the exploitation of users' fears and lack of knowledge.
 
-The best protection is enabled 2FA and common sense.
+1. **Enable Two‑Factor Authentication (2FA)** in Telegram settings. This is the main shield.
+2. **Set a password for the SMS verification code.**
+3. **Regularly check** *Settings → Devices* and terminate all unfamiliar active sessions.
+4. **Do not click on suspicious links** and do not enter your Telegram code on third‑party sites.
+5. **Be skeptical.** If you are threatened with «removal», it is most likely a bluff. But check points 1–4.
 
-This article is for informational purposes only. The author does not encourage illegal activities and is not responsible for the use of this information.
+## Conclusion
+
+
+«Account removal teams» are, for the most part, either scammers selling empty promises or hackers offering to commit a crime. Telegram’s actual moderation is designed to withstand such primitive attacks.
+
+Reliable «removal» is only possible through official channels and in the presence of real, gross violations of the platform’s rules. Everything else is the exploitation of users’ fears and lack of knowledge.
+
+The best protection is enabled 2FA and common sense.
+
+## What’s Next?
+
+In a future article, I will conduct a deeper dive into practical cybersecurity:
+
+- **Practical Defense Guide:** A step‑by‑step walkthrough on configuring the most secure settings for your Telegram account, including advanced 2FA options, passphrase management, and recognizing sophisticated phishing attempts.
+- **Analysis of Data‑Gathering Tools:** I will analyze other tools and techniques commonly used by malicious actors to gather target data, such as OSINT (Open Source Intelligence) frameworks, phone number enumeration methods, and social media scraping. Understanding these tools is key to minimizing your digital footprint and protecting your privacy.
+
+Stay tuned for a hands‑on, technical guide to fortifying your digital presence.
+
+> **Disclaimer:** This article is for informational purposes only. The author does not encourage illegal activities and is not responsible for the use of this information.
+
+
+Stay secure.  
+— Dr.Firewall
+
